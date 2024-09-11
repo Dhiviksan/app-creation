@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #00f0ff, #0000ff); /* Shining blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.button {
+    font-size: 24px;
+    color: #fff;
+    background-color: #ff0000; /* Bright red color */
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+.status {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#statusMessage {
+    font-weight: bold;
+}
